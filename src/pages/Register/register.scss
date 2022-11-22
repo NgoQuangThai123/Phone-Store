@@ -1,0 +1,28 @@
+.container-form {
+    width: 450px;
+    height: 725px;
+    margin: 100px auto;
+    background-color: white;
+
+    h1 {
+        text-align: center;
+        color: black;
+        font-weight: 700;
+        font-size: 2em;
+        font-style: normal;
+    }
+
+    button {
+        height : 50px;
+    }
+
+    a {
+        color: black;
+        float: right;
+        font-weight: 500;
+        &:hover {
+            color: red;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  overflow-x: hidden;
+}
+
+
+.container-fluid {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0;
+}
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* 
+header
+------ 
+*/
+
+
+/* 
+footer
+------
+*/
+
+
+.footer .logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+
+.footer .fas {
+  color: #1890ff;
+  font-size: 28px;
+  margin: 0 5px 0 0;
+}
+
+.footer .socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-size: 24px;
+}
+
+.footer .socials li {
+  margin: 0 20px;
+}
+
+.footer .socials a {
+  color: #fff;
+}
+
+
+.footer .goTop:hover {
+  opacity: 0.7;
+}
+
+i {
+  margin-right: 10px;
+}
+
+.w-400 {
+  width: 400px;
+}
+
+
+.content {
+  margin-top: 85px;
+}
+
+.h-700 {
+  height: 700px;
+}
+
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.ml-100 {
+  margin-left: 100px;
+}
+

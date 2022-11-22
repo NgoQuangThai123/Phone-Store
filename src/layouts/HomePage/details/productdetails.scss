@@ -1,0 +1,126 @@
+* {
+    font-family: inherit;
+
+    .productDetails  {
+        margin-top: 100px;
+        .headers {
+            margin: 0;
+            padding: 0;
+            span {
+                font-weight: 400;
+                font-size: inherit;
+                line-height: inherit;
+                letter-spacing: inherit;
+                font-family: inherit;
+                color: #0f62fe;
+                margin: 10px;
+            }
+        }
+        .container  {
+          
+            width: 85%;
+            margin: 10px auto;
+    
+            .title-name {
+                font-size: 20px;
+                line-height: 2.2rem;
+                color: #0f1e29;
+                letter-spacing: .015rem;
+            }
+            .title-price {
+                color: #ee2624;
+                font-weight: 700;
+                letter-spacing: .015rem;
+                line-height: 3.2rem;
+                font-size: 24px;
+                line-height: 3.2rem;
+            }
+
+            .ant-col-2 {
+                padding: 20px;
+            }
+
+
+            .ant-row-4  {
+                margin-top: 50px;
+            }
+            .purchases {
+                margin-left: 0.4rem;
+                color: #6f787e;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 1.8rem;
+            }
+            svg {
+                margin-top: 6px;
+                color: #6f787e;
+            }
+            
+
+            .ant-row-5 {
+                margin: 17px 0;
+                .ant-col-4 {
+                    display: flex;
+                    .amount-product  {
+                        display: block;
+                        margin: 4px;
+                    }
+                }
+            }
+
+            .ant-row-7  {
+                margin-top: 20px;
+                .endow {
+                    font-weight: 700;
+                    color: #0f1e29;
+                    font-size: 16px;
+                    line-height: 2.2rem;
+                    letter-spacing: 0;
+                }
+               
+            }
+
+            .ant-row-8 {
+                padding: 0;
+                .sell-app {
+                    display: inline-block;
+                    margin-left: 7px;
+                }
+                img {
+                    margin: 4px 10px;
+                }
+            }
+
+            .ant-row-9 {
+                margin-top: 60px;
+                .endow {
+                    font-weight: 700;
+                    color: #0f1e29;
+                    font-size: 16px;
+                    line-height: 2.2rem;
+                    letter-spacing: 0;
+                }
+                .endiw {
+                    display: flex;
+                    .hours {
+                        margin: 6px;
+                    }
+                }
+            }
+            .ant-row-10 {
+                h4 {
+                    margin: 5px;
+                }
+                .danhgia{
+                    font-weight: bold;
+                    font-size: 22px;
+                    margin: 0 10px;
+                }
+            }
+            
+          
+        }
+    }
+}
+
+

@@ -1,0 +1,69 @@
+.main {
+    background-color: white !important;
+}
+
+.container-cart {
+    margin: 140px auto;
+    max-width: 800px;
+    padding: 0 15px;
+    background-color: white;
+    .scroll-product  {
+        margin: 0 auto;
+    }
+  
+    .col-cart {
+        height: 373px;
+        border: 1px solid gray;
+        padding: 30px;
+        border-radius: 10px;
+        background-color: white;
+
+    }
+
+    .sumprice {
+        height: 160px;
+    }
+ 
+
+    input {
+        width: 65px;
+        border: 1px solid gray;
+        &:hover{
+        border: 1px solid #4dd2ff;
+            
+        }
+    }
+
+    h2 {
+        text-align: center;
+    }
+    .quantity {
+        display: flex;
+    }
+  }
+  .tongtien {
+    font-size: 16px;
+    font-weight: bold;
+}
+    .price {
+        color: red;
+        font-size: 20px;
+        font-weight: bold;
+    }
+  .totalUniqueItems {
+    color: red;
+   
+}
+
+.render-name  {
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    height: 3rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+

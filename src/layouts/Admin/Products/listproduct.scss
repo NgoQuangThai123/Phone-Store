@@ -1,0 +1,19 @@
+
+.ant-spin-nested-loading {
+    .ant-table-cell {
+        width: 300px;
+        overflow: hidden;
+        .admin-list-name {
+            height: 1rem;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+    }
+    
+    
+}
+
+

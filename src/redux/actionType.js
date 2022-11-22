@@ -1,0 +1,38 @@
+export const GET_PRODUCTS = 'GET_PRODUCTS';
+export const DELETE_PRODUCTS = 'DELETE_PRODUCTS';
+export const ADD_PRODUCTS = 'ADD_PRODUCTS';
+export const UPDATE_PRODUCTS = 'UPDATE_PRODUCTS';
+export const GET_SINGLE_PRODUCTS = 'GET_SINGLE_PRODUCTS';
+export const SEARCH_PRODUCTS = 'SEARCH_PRODUCTS';
+
+
+export const GET_USERS = 'GET_USERS';
+export const DELETE_USERS = 'DELETE_USERS';
+export const ADD_USERS = 'ADD_USERS';
+export const UPDATE_USERS = 'UPDATE_USERS';
+export const GET_SINGLE_USERS = 'GET_SINGLE_USERS';
+
+export const GET_COMMENTS = 'GET_COMMENTS';
+export const DELETE_COMMENTS = 'DELETE_COMMENTS';
+export const ADD_COMMENTS = 'ADD_COMMENTS';
+export const UPDATE_COMMENTS = 'UPDATE_COMMENTS';
+export const GET_SINGLE_COMMENTS = 'GET_SINGLE_COMMENTS';
+
+
+export const GET_ORDERS = 'GET_ORDERS';
+export const DELETE_ORDERS = 'DELETE_ORDERS';
+export const ADD_ORDERS = 'ADD_ORDERS';
+export const UPDATE_ORDERS = 'UPDATE_ORDERS';
+export const GET_SINGLE_ORDERS = 'GET_SINGLE_ORDERS';
+
+
+export const LOGIN = 'LOGIN';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+export const LOGOUT = 'LOGOUT';
+export const GET_PROFILE = 'GET_PROFILE';
+export const GET_PROFILE_FAIL = 'GET_PROFILE_FAIL';
+export const GET_PROFILE_SUCCESS = 'GET_PROFILE_SUCCESS';
+export const SET_IS_LOADING = 'SET_IS_LOADING_AUTH';
+
+

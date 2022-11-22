@@ -1,0 +1,59 @@
+.main {
+    margin-top: 100px;
+    display: flex;
+    .sibar {
+        width: 17%;
+        margin-bottom: 10px;
+        padding: 20px;
+        height: 600px;
+        .fixed {
+            position: fixed;
+            height: 600px;
+            top: 100px;
+            overflow: scroll;
+            .ant-checkbox-wrapper {
+                margin: 4px 0;
+            }
+            .ratings {
+                cursor: pointer;
+            }
+        }
+        
+    }
+    
+    .container-userproduct {
+        width: 100%;
+        min-height: 700px;
+
+        .search__product {
+            margin: 10px;
+        
+            li {
+                list-style-type: none;
+                font-size: 20px;
+                width: 100px;
+                height: 40px;
+                margin: 10px;
+                color: black;
+                font-weight: bold;
+                text-align: center;
+                padding-top: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+        .pagination {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .filtername {
+            font-weight: bold;
+            font-size: 18px;
+            cursor: pointer;
+        }
+    
+    }
+    
+}
+

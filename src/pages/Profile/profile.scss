@@ -1,0 +1,30 @@
+.container__profile {
+    .information {
+        font-size: 40px;
+        text-align: center;
+        margin: 50px 0;
+    }
+    padding: 0 300px;
+    margin-top: 150px;
+    min-height: 700px;
+
+    .avatar {
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+    }
+
+    p {
+        color: black;
+        font-size: 18px;
+        font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .email {
+        margin-top: 20px;
+        color: blue;
+        &:hover {
+            color: red;
+        }
+    }
+}

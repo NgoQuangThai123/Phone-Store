@@ -1,0 +1,1 @@
+export const INFO_USER_KEY = 'i_f_k'
